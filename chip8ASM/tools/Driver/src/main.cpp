@@ -4,5 +4,5 @@
 
 int main()
 {
-    fmt::print("hello world!!!!");
+    fmt::print("This is the driver for chip8ASM!\n");
 }

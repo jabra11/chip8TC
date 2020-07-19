@@ -1,1 +1,8 @@
-add_executable(chip8C tools/driver.cpp)
+project(chip8C)
+
+message("Building chip8C.")
+
+include_directories(include)
+
+add_subdirectory(lib)
+add_subdirectory(tools)

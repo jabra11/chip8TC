@@ -1,11 +1,11 @@
-message("Building the driver for chip8ASM.")
+message("Building the driver for chip8LD.")
 
 set(src
     src/main.cpp
     )
 
-add_executable(chip8ASM ${src})
-target_link_libraries(chip8ASM 
+add_executable(chip8LD ${src})
+target_link_libraries(chip8LD
                     PRIVATE
                     Driver
                     fmt

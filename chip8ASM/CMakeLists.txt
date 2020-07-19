@@ -1,1 +1,8 @@
-add_executable(chip8ASM tools/driver.cpp)
+project(chip8ASM)
+
+message("Building chip8ASM.")
+
+include_directories(include)
+
+add_subdirectory(lib)
+add_subdirectory(tools)
