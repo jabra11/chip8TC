@@ -7,6 +7,6 @@ set(src
 add_executable(chip8ASM ${src})
 target_link_libraries(chip8ASM 
                     PRIVATE
-                    Driver
+                    chip8ASM_Driver
                     fmt
                     )

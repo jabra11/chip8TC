@@ -1,8 +1,10 @@
 // entry point for the assembler
 
 #include <fmt/format.h>
+#include <chip8C/Driver/Driver.hpp>
 
 int main()
 {
-    fmt::print("This is the driver for chip8C!\n");
+    Driver d;
+    d.say_hello();
 }

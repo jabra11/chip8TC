@@ -3,6 +3,8 @@
 
 class Driver
 {
+public:
+    void say_hello();
 };
 
 #endif // DRIVER_HPP
