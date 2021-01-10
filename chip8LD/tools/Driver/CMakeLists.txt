@@ -10,3 +10,7 @@ target_link_libraries(chip8LD
                     chip8LD_Driver
                     fmt
                     )
+
+install(TARGETS chip8LD
+    RUNTIME DESTINATION bin
+    )

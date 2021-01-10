@@ -10,3 +10,7 @@ target_link_libraries(chip8C
                     chip8C_Driver
                     fmt
                     )
+
+install(TARGETS chip8C
+    RUNTIME DESTINATION bin
+    )
