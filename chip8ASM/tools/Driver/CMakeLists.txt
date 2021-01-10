@@ -10,3 +10,7 @@ target_link_libraries(chip8ASM
                     chip8ASM_Driver
                     fmt
                     )
+
+install(TARGETS chip8ASM
+    RUNTIME DESTINATION bin
+    )
